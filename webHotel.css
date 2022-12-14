@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: rgb(54, 65, 65);
+}
+#myHeader{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    border-bottom-style: solid;
+    border-width: 2vh 0;
+    border-color: rgb(31, 37, 37);
+    background-color: rgb(37, 46, 46) /* rgb(35, 43, 43) */;
+    color: white;
+}
+#mainNav1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 0 0 0 9%;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 6vh;
+}
+#mainNav2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 6vh;
+}
+.headingText{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-top: 40vh;
+}
+#headingText1{
+    font-size: 45px;
+    margin: -4.6% 0 0 0;
+    text-decoration: none;
+}
+#headingText2{
+    font-size: 25px;
+    margin: 0 0 0 0;
+    text-decoration: none;
+}
+.myNav{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+#contain{
+    height: 80vh;
+    width: 80%;
+    margin: 3vh 10% 3vh 10%;
+    border-radius: 25px;
+    background-color: rgb(138, 119, 106);
+}
+#description1{
+    position: absolute;
+    height: 12vh;
+    width: 28%;
+    margin: 6vh 0 0 4%;
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+}
+#description2{
+    position: absolute;
+    height: 15vh;
+    width: 28%;
+    margin: 19vh 0 0 4%;
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150;
+}
+#information1{
+    position: absolute;
+    height: 10vh;
+    width: 30%;
+    margin: 40vh 0 0 2.5%;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+/* input{
+    float: right;
+} */
+.information2{
+    width: 15%;
+}
+label{
+    color: white;
+    display: inline-block;
+    height: 5vh;
+    width: auto;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#name, #email, #phone, #date{
+    height: 3vh;
+    width: 40%;    
+}
+input{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#innerContain{
+    position: absolute;
+    height: 70vh;
+    width: 42%;
+    margin: 5vh 0 0 36%;
+    background-color: rgb(90, 95, 95);
+    border-radius: 25px;
+}
+#myFooter{
+    height: 18vh;
+    width: 100%;
+    background-color: rgb(33, 43, 43);
+}
+#footContain{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    padding-top: 5vh;
+    margin: 2vh 10% 4vh 10%;    
+}
+.myNav2{
+    text-decoration: none;
+    color: white;
+}
+#foot1{
+    width: 50%;
+    padding-right: 20px;
+}
+#foot1 a:hover{
+    color: green;
+}
+#effectTypes{
+    visibility: hidden;
+}
+#img1{
+    background-image: url(/Images/cityImage1.1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img2{                                           
+    background-image: url(/Images/cityImage1.2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img3{
+    background-image: url(/Images/cityImage1.4.png);
+    background-size: cover;                                           
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img4{                                           
+    background-image: url(/Images/cityImage1.6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img5{
+    background-image: url(/Images/cityImage1.5.png);
+    background-size: cover;
+    background-repeat: no-repeat;                                           
+    background-position: center;
+}
+#img6{
+    background-image: url(/Images/cityImage1.3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

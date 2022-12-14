@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(54, 65, 65);
+}
+#myHeader{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    border-bottom-style: solid;
+    border-width: 2vh 0;
+    border-color: rgb(31, 37, 37);
+    background-color: rgb(37, 46, 46) /* rgb(35, 43, 43) */;
+    color: white;
+}
+#mainNav1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 0 0 0 9%;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 6vh;
+}
+#mainNav2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 6vh;
+}
+.headingText{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-top: 40vh;
+
+}
+#headingText1{
+    font-size: 45px;
+    margin: -4.6% 0 0 0;
+    text-decoration: none;
+}
+#headingText2{
+    font-size: 25px;
+    margin: 0 0 0 0;
+    text-decoration: none;
+
+}
+.myNav{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+#welcomeScreen{
+    height: 78vh;
+  
+    margin: 0 0 0 0;
+    background-color: rgb(54, 65, 65);
+    /* background-image: url(/Images/welcomeBackground1.2.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+#imageSlide_1{
+    position: absolute;
+    height: 65vh;
+    width: 53vw;
+    /* background-color: antiquewhite; */
+    margin: 6vh 0 0 5vw;
+    background-image: url(/Images/cityImage1.3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imageSlide_2{
+    position: absolute;
+    height: 31vh;
+    width: 35vw;
+    /* background-color: antiquewhite; */
+    margin: 6vh 5vw 0 0;
+    right: 0;
+    background-image: url(/Images/cityImage1.2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imageSlide_3{
+    position: absolute;
+    height: 31vh;
+    width: 35vw;
+    /* background-color: antiquewhite; */
+    margin: 52vh 5vw 0 0;
+    right: 0;
+    top: 0;
+    background-image: url(/Images/cityImage1.4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#myFooter{
+    height: 18vh;
+    width: 100%;
+    background-color: rgb(33, 43, 43);
+}
+#footContain{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    padding-top: 5vh;
+    margin: 2vh 10% 4vh 10%;    
+}
+.myNav2{
+    text-decoration: none;
+    color: white;
+}
+#foot1{
+    width: 50%;
+    padding-right: 20px;
+}
+#foot1 a:hover{
+    color: green;
+}

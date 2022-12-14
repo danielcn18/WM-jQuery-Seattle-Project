@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seattle Hotel</title>
+    <link rel="stylesheet" href="webHotel.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="webHotel.js"></script>
+    <style>
+        /* #feedback { font-size: 1.4em; } */
+        /* #selectable .ui-selecting { background: #FECA40; } */
+        /* #selectable .ui-selected { transform: scale(1.1); }
+        #selectable { list-style-type: none; margin: 0; padding: 0; width: 640px; height: 50vh; }
+        #selectable li { border: none; margin: 3px; padding: 1px; float: left; width: 30%; height: 30%; font-size: 4em; text-align: center; border-radius: 20px; margin: 1.6vh 0 0 2%;} */
+        #selectable .ui-selected { transform: scale(1.05); }
+        #selectable { list-style-type: none; margin: .5vh .6%; padding: 0; width: 100%; height: 50vh;  background-position: center; background-repeat: no-repeat; background-size: cover;}
+        #selectable li { border: none; margin: 0 0 0 0; padding: 1px; float: left; width: 46%; height: 40%; font-size: 4em; text-align: center; border-radius: 20px; margin: 2vh 1.5% 0 1.5%;}
+        </style>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script>
+        $( function() {
+          $( "#selectable" ).selectable();
+        } );
+    </script>
+</head>
+<body>
+    <div id="myHeader">
+        <nav id="mainNav1">
+            <a href="/web.html" id="headingText1" class="headingText">Seattle</a>
+            <a href="/web.html" id="headingText2" class="headingText">City</a>
+        </nav>
+        <nav id="mainNav2">
+            <!-- <a id="nav1" class="myNav" href="">Sightseeing</a> -->
+            <a id="nav2" class="myNav" href="/webHotel.html">Hotel</a>
+            <a id="nav3" class="myNav" href="/webFood&Drink.html">Food & Drink</a>
+            <!-- <a id="nav4" class="myNav" href="">News</a> -->
+            <a id="nav5" class="myNav" href="/webFAQ.html">FAQ</a>
+        </nav>
+    </div>
+    <div id="contain">
+        <p id="description1">Book a Hotel in the City of Seattle Now</p>
+        <p id="description2">All you have to do is book you name here with the information for your visit to a hotel and we will search for the best hotel that suits your price range.</p>
+        <div id="information1">
+            <p id="1">
+                <label for="name">Name</label>
+                <input id="name" title="We ask for your legal name to book a room under said name">
+            </p>
+            <p id="2">
+                <label for="email">E-mail</label>
+                <input id="email" title="example@example.com">
+            </p>
+            <p id="3">
+                <label for="phone">Phone</label>
+                <input id="phone" placeholder="(000) 000-0000">
+            </p>
+            <p id="4">
+                <label for="from" for="to">Arrival Date</label>
+                <input type="text" id="from" name="from" class="information2">
+                <label for="to">to</label>
+                <input type="text" id="to" name="to" class="information2">
+            </p>
+            <!-- <ol id="selectable">
+                <li class="ui-widget-content">Item 1</li>
+                <li class="ui-widget-content">Item 2</li>
+            </ol> -->
+            <p>
+                <input type="submit" value="Submit" id="button">
+            </p>
+            <select name="effects" id="effectTypes">
+                <option value="shake">Shake</option>
+            </select>  
+        </div>
+        <div id="innerContain">
+            <div id="selectable">
+                <li class="ui-state-default" id="img1"></li>
+                <li class="ui-state-default" id="img2"></li>
+                <li class="ui-state-default" id="img3"></li>
+                <li class="ui-state-default" id="img4"></li>
+                <li class="ui-state-default" id="img5"></li>
+                <li class="ui-state-default" id="img6"></li>
+                <!-- <li class="ui-state-default" id="img7"></li>
+                <li class="ui-state-default" id="img8"></li>
+                <li class="ui-state-default" id="img9"></li>
+                <li class="ui-state-default" id="img10"></li>
+                <li class="ui-state-default" id="img11"></li>
+                <li class="ui-state-default" id="img12"></li> -->
+            </div>
+        </div>
+    </div>
+    <footer id="myFooter">
+        <div id="footContain">
+            <div id="foot1">
+                <p><a href="" class="myNav2">Maps & Guides</a>  /  <a href="" class="myNav2">Contact Us</a></p>
+                <br>
+                <p><a href="" class="myNav2">Terms of Use</a>    /    <a href="" class="myNav2">Privacy Policy</a>    /    <a href="" class="myNav2">Sitemap</a></p>
+            </div>
+            <!-- <div id="foot2"></div> -->
+        </div>
+    </footer>
+</body>
+</html>
